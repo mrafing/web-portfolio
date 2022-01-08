@@ -206,3 +206,75 @@ section.cta {
   box-shadow: 0 6px 18px #89afec;
 }
 /* end hubungi saya*/
+
+/* blogs */
+section.blog {
+  padding-top: 92px;
+}
+
+.blog .container-blog {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.blog .blog-header {
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.blog .blog-subtitle {
+  text-align: center;
+  color: rgba(179, 206, 248, 1);
+  margin-top: 18px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.blog .blog-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 44px;
+}
+
+.blog .card-blog {
+  background-color: #f2f2f2;
+  margin: 0 12px;
+  padding: 44px 32px;
+  border-radius: 8px;
+}
+
+.blog .card-blog .tanggal {
+  color: #b3cef8;
+  font-size: 12px;
+}
+
+.blog .card-blog .card-blog-heading {
+  font-weight: 700;
+  color: #3281ff;
+}
+
+.blog .card-blog .card-blog-paragraph {
+  margin-top: 18px;
+  color: #565656;
+  font-size: 16px;
+}
+
+.blog .card-blog a {
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 28px;
+  color: #3281ff;
+}
+
+.blog .card-blog a:hover {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.blog .card-blog:hover {
+  background-color: #3281ff5e;
+  transition: 0.3s;
+}
+/* end blogs */
