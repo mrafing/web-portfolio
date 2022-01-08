@@ -119,3 +119,54 @@ section.partner {
   height: 136px;
 }
 /* end partner */
+
+/* project */
+
+section.project {
+  padding-top: 92px;
+}
+
+.container-project {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.project h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  color: rgba(50, 129, 255, 1);
+}
+
+.project p {
+  text-align: center;
+  color: rgba(179, 206, 248, 1);
+  margin-top: 18px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.project .card-project {
+  width: 100%;
+  background-color: #f2f2f2;
+  overflow: hidden;
+  margin-top: 44px;
+  border-radius: 21px;
+}
+
+.project .card-project:hover {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.211);
+  transition: 0.2s;
+}
+
+.project img {
+  width: 100%;
+}
+
+.project h4 {
+  padding: 24px 20px 38px 20px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+/* project end */
