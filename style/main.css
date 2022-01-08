@@ -170,3 +170,39 @@ section.project {
 }
 
 /* project end */
+
+/* hubungi saya */
+section.cta {
+  margin-top: 92px;
+  background: #b3cef8;
+}
+
+.cta .container-cta {
+  width: 80%;
+  margin: 0 auto;
+  padding: 68px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta h4 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.cta a {
+  text-decoration: none;
+  background-color: #3281ff;
+  color: white;
+  padding: 10px 24px;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.cta a:hover {
+  background-color: #2a78f5;
+  box-shadow: 0 6px 18px #89afec;
+}
+/* end hubungi saya*/
