@@ -277,4 +277,42 @@ section.blog {
   background-color: #3281ff5e;
   transition: 0.3s;
 }
+
+.blog .card-blog,
+.card-blog-paragraph:hover {
+  color: #ffff;
+}
 /* end blogs */
+
+/* teknologi & tools */
+
+section.teknologitools {
+  padding-top: 92px;
+}
+
+.teknologitools .container-teknologitools {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.teknologitools .container-teknologitools h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: rgba(50, 129, 255, 1);
+}
+
+.teknologitools .container-teknologitools p {
+  margin-top: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(179, 206, 248, 1);
+}
+
+.teknologitools .container-teknologitools .img-teknologitools {
+  margin-top: 94px;
+  padding: 0 100px;
+  display: flex;
+  justify-content: space-between;
+}
+/* end teknologi & tools */
