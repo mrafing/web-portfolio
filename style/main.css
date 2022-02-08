@@ -316,3 +316,19 @@ section.teknologitools {
   justify-content: space-between;
 }
 /* end teknologi & tools */
+
+/* footer */
+footer {
+  margin-top: 150px;
+  padding: 37px 0;
+  display: flex;
+  justify-content: space-around;
+  background: #b3cef8;
+}
+
+footer .medsos {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+/* end footer */
